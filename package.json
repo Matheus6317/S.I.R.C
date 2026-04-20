@@ -1,0 +1,20 @@
+{
+  "name": "s.i.r.c",
+  "version": "1.0.0",
+  "description": "meu projeto D&D",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node script/PgClasses.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matheus6317/S.I.R.C.git"
+  },
+  "author": "Shirpss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matheus6317/S.I.R.C/issues"
+  },
+  "homepage": "https://github.com/Matheus6317/S.I.R.C#readme"
+}
