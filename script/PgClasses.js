@@ -2,12 +2,12 @@ var http = require("http")
 
 var callback =  async function(request, response){
     try{
-        let buscar = await fetch("https://www.dnd5eapi.co/api/2014/spells")
+        let buscar = await fetch("https://www.dnd5eapi.co/api/2014/classes/")
         let arq = await buscar.json()
     
         response.writeHead(200, {"Content-Type": "application/json; charset=utf-8"})
     
-        let strArq = JSON.stringify(arq)
+        let strArq = JSON.stringify(arq.results[0])
     
         response.end(strArq)
 
